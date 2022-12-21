@@ -1,0 +1,24 @@
+{
+  "name": "zap-extractor",
+  "version": "1.0.0",
+  "description": "Programa que varre automáticamente as páginas do Google Maps para extrair dados como número de whatsapp, nome, local, etc.",
+  "main": "server.js",
+  "scripts": {
+    "start": "**node** server.js",
+    "test": "test",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "extractor"
+  ],
+  "author": "Thiago Woroszczuk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-os-utils": "^1.3.7",
+    "puppeteer": "^19.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
